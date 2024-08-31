@@ -74,3 +74,32 @@ address {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+
+.our-team {
+    background-color: #F4F4FD;
+}
+.second-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.our-team-list {
+    background-color: #FFFFFF;
+}
+.our-team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.our-team-content {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
