@@ -46,9 +46,9 @@ img {
 
  /* Header mood */
 .container {
-    display: flex;
     width: 1158px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 15px;
 }
 .top-line-container {
@@ -57,14 +57,12 @@ img {
 }
 .main-menu-container {
     align-items: center;
-    display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
     padding: 0 15px;
 }
 /* Navigation menu */
 .nav-menu-container {
-    display: flex;
     gap: 40px;
 }
 .nav-menu-container:last-child {
@@ -96,7 +94,6 @@ img {
 
 /* Contacts*/
 .contact-list-container {
-    display: flex;
     gap: 40px;
     padding: 24px 0;
 }
@@ -121,11 +118,6 @@ address {
 .title {
     background-color: #2e2f42;
     padding: 188px 0;
-    display: flex;
-    justify-content: center;
-}
-.container {
-    display: block;
     justify-content: center;
 }
 .title-head {
@@ -179,7 +171,6 @@ address {
     margin-bottom: 8px;
 }
 .benefits-list {
-    display: flex;
     gap: 24px;
     padding: 120px 0;
 }
@@ -234,7 +225,6 @@ address {
     padding: 32px 0;
 }
 .our-team-menu {
-    display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
@@ -262,7 +252,6 @@ address {
     color: #434455;
 }
 .portfolio-menu {
-    display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
