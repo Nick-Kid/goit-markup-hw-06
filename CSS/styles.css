@@ -37,7 +37,12 @@ ul {
     padding: 0 15px;
 }
 img {
-    display: block
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.main-content-container {
+    width: 1158px;
 }
 
  /* Header mood */
@@ -55,9 +60,6 @@ img {
     align-items: center;
 }
 /* Navigation menu */
-.main-content-container {
-    width: 1158px;
-}
 .nav-menu-container {
     display: flex;
     gap: 40px;
@@ -194,13 +196,7 @@ address {
 }
 .our-team-list {
     background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 32px;
-    border-radius: 0 0 4px 4px;
-height: 380px;
-width: calc((100% - 48px) / 3);
+    width: calc((100% - 72px) / 4);
 }
 .our-team-title {
     font-weight: 500;
@@ -220,7 +216,12 @@ width: calc((100% - 48px) / 3);
 }
 .conteiner-employee {
     padding: 32px 0;
-
+}
+.our-team-menu {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 /* Section 4 Our portfolio */
@@ -261,12 +262,15 @@ width: calc((100% - 48px) / 3);
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+    width: 1158px;
 }
 .footer-content {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
+    flex: end;
+    flex: box;
 }
 .footer-span {
     color: #f4f4fd;
