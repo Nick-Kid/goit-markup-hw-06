@@ -45,7 +45,12 @@ img {
 }
 
  /* Header mood */
-
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .top-line-container {
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
