@@ -121,12 +121,10 @@ address {
 }
 .section-one-container {
     display: block; 
-    justify-content:center
 }
 .title-head {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
@@ -248,6 +246,8 @@ address {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .portfolio-list {
     width: calc((100% - 48px) / 3);
@@ -256,6 +256,9 @@ address {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+.container-portfolio {
+    
 }
 
 /* Footer mood */
@@ -285,4 +288,7 @@ text-transform: uppercase;
 color: #4d5ae5;
 display: inline-block;
 margin-bottom: 16px;
+}
+.container-footer {
+    padding-left: 10%;
 }
