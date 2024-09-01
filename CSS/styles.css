@@ -32,8 +32,8 @@ a {
 ul {
     list-style: none;
     display: flex;
-    margin: 0 auto;
-    padding: 0 15px;
+    margin: 0;
+    padding-left: 0;
 }
 img {
     display: block;
@@ -58,7 +58,6 @@ img {
 .main-menu-container {
     align-items: center;
     display: flex;
-    width: 1158px;
     justify-content: space-evenly;
     margin: 0 auto;
     padding: 0 15px;
