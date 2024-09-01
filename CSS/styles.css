@@ -60,6 +60,7 @@ img {
     justify-content: space-evenly;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
 }
 /* Navigation menu */
 .nav-menu-container {
@@ -188,7 +189,6 @@ address {
 .our-team {
     background-color: #F4F4FD;
     padding: 120px 0;
-    gap: 24px;
 }
 .second-title {
     font-size: 36px;
@@ -203,7 +203,6 @@ address {
     background-color: #FFFFFF;
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
-    gap: 24px;
 }
 .our-team-title {
     font-weight: 500;
@@ -228,6 +227,7 @@ address {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    gap: 24px
 }
 .our-team-menu:last-child {
     margin-right: 0;}
@@ -255,8 +255,6 @@ address {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 .portfolio-list {
     width: calc((100% - 48px) / 3);
