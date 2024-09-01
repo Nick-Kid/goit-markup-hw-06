@@ -4,7 +4,6 @@
 *::after {
   box-sizing: border-box;
 }
-
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -50,6 +49,8 @@ img {
     display: flex;
     width: 1158px;
     justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .top-line-container {
     border-bottom: 1px solid #e7e9fc;
@@ -146,22 +147,20 @@ address {
     height: 56px;
     border: none;
     border-radius: 4px;
-}
-.button-control {
     display: block;
-    justify-content: center;
-    padding-left: calc((100% - 169px) / 2);
-    padding-right: calc((100% - 169px) / 2);
 }
 .title-button:hover, .title-button:focus {
     background-color: #404BBF;
 }
 
 /* Section 2 Benefsts */
+.benefits {
+    padding: 120px 0
+}
 .container-benefits {
     padding: 120px 0;
 }
-.second-title-hide {
+.visually-hidden {
     display: none;
 }
 .benefits-title {
@@ -177,7 +176,7 @@ address {
     gap: 24px;
 }
 .benefits-menu {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .benefits-content {
     font-size: 16px;
@@ -190,6 +189,7 @@ address {
 .our-team {
     background-color: #F4F4FD;
     padding: 120px 0;
+    gap: 24px;
 }
 .second-title {
     font-size: 36px;
@@ -202,7 +202,8 @@ address {
 }
 .our-team-list {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .our-team-title {
     font-weight: 500;
