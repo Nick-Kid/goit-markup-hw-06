@@ -211,8 +211,9 @@ address {
 }
 .our-team-list {
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
+    gap: 24px;
 }
 .our-team-title {
     font-weight: 500;
@@ -239,6 +240,8 @@ address {
     column-gap: 24px;
     row-gap: 48px;
 }
+.our-team-menu:last-child {
+    margin-right: 0;}
 
 /* Section 4 Our portfolio */
 .portfolio {
