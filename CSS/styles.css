@@ -118,9 +118,13 @@ address {
 .title {
     background-color: #2e2f42;
     padding: 188px 0;
+    display: flex;
+    justify-content: center;
 }
-.section-one-container {
-    display: block; 
+.container-section-one {
+    display: block;
+    max-width: 496px;
+    justify-content: center;
 }
 .title-head {
     font-size: 56px;
@@ -138,12 +142,16 @@ address {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+}
+.button-control {
+    display: block;
+    justify-content: center;
+    padding-left: calc((100% - 169px) / 2);
+    padding-right: calc((100% - 169px) / 2);
 }
 .title-button:hover, .title-button:focus {
     background-color: #404BBF;
