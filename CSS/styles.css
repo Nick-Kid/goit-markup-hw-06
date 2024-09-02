@@ -8,6 +8,9 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    width: 1158px;
+    margin: 0;
+    padding: 0;
 }
 .roboto-regular {
     font-family: "Roboto", sans-serif;
@@ -44,33 +47,24 @@ img {
     max-width: 100%;
     height: auto;
 }
-.main-content-container {
-    width: 1158px;
-}
 
  /* Header mood */
 .container {
-    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
 }
 .name-container {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
     display: flex;
-}
-.top-line-container {
-    border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
-}
-.main-menu-container {
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    padding: 0 15px;
+}
+.header-container {
+    border-bottom: 1px solid #e7e9fc;
+}
+.nav-header-container {
+    align-items: center;
+    display: flex;
 }
 /* Navigation menu */
 .nav-menu-container {
@@ -281,7 +275,6 @@ address {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-    width: 1158px;
 }
 .footer-content {
     line-height: 1.5;
