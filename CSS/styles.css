@@ -65,14 +65,12 @@ img {
 .top-line-container {
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
-    display: flex;
 }
 .main-menu-container {
     align-items: center;
     justify-content: space-evenly;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
 }
 /* Navigation menu */
 .nav-menu-container {
@@ -131,7 +129,9 @@ address {
 .title {
     background-color: #2e2f42;
     padding: 188px 0;
+    display: flex;
     justify-content: center;
+    align-self: center;
 }
 .title-head {
     font-size: 56px;
