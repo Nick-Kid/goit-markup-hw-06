@@ -149,6 +149,8 @@ address {
     border: none;
     border-radius: 4px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .title-button:hover, .title-button:focus {
     background-color: #404BBF;
