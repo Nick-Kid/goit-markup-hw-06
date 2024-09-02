@@ -54,8 +54,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-}
-.name-container {
     display: flex;
 }
 .top-line-container {
