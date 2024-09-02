@@ -35,6 +35,10 @@ ul {
     margin: 0;
     padding-left: 0;
 }
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
 img {
     display: block;
     max-width: 100%;
@@ -54,6 +58,7 @@ img {
 .top-line-container {
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
+    display: flex;
 }
 .main-menu-container {
     align-items: center;
@@ -111,7 +116,7 @@ img {
     color: #404bbf;
 }
 address {
-    font-style: normal
+    font-style: normal;
 }
 
 /* Main content */
@@ -127,6 +132,7 @@ address {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    text-align: center;
 }
 .title-button {
     background-color: #4D5AE5;
