@@ -54,7 +54,13 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
+}
+.name-container {
     display: flex;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
 }
 .top-line-container {
     border-bottom: 1px solid #e7e9fc;
