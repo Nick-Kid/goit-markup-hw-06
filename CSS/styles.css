@@ -157,6 +157,10 @@ address {
 }
 
 /* Section 2 Benefsts */
+.benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -194,6 +198,8 @@ address {
 /* Section 3 Our team */
 .our-team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
    }
 .second-title {
     font-size: 36px;
