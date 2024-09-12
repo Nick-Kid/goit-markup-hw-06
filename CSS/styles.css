@@ -32,7 +32,6 @@ a {
 }
 ul {
   list-style: none;
-  display: flex;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -110,6 +109,7 @@ img {
 
 /*================ Contacts =====================*/
 .contact-list-container {
+  display: flex;
   gap: 40px;
   padding: 24px 0;
 }
@@ -135,7 +135,6 @@ address {
 .title {
   background-color: #2e2f42;
   padding: 188px 0;
-  display: flex;
   justify-content: center;
   align-self: center;
 }
@@ -197,6 +196,7 @@ address {
   margin-bottom: 8px;
 }
 .benefits-list {
+  display: flex;
   gap: 24px;
   padding: 120px 0;
 }
@@ -250,6 +250,7 @@ address {
   padding: 32px 0;
 }
 .our-team-menu {
+  display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -279,6 +280,7 @@ address {
   color: #434455;
 }
 .portfolio-menu {
+  display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -302,7 +304,6 @@ address {
   color: #f4f4fd;
   max-width: 264px;
   flex: end;
-  flex: box;
 }
 .footer-span {
   color: #f4f4fd;
