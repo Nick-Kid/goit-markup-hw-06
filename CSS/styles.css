@@ -30,7 +30,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
-ul {
+ul, ol {
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -198,7 +198,6 @@ address {
 .benefits-list {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 .benefits-menu {
   flex-basis: calc((100% - 3 * 24px) / 4);
