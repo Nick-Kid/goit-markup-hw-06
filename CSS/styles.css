@@ -121,8 +121,8 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
-
 }
+
 /*================ Contacts =====================*/
 .contact-list-container {
   display: flex;
@@ -172,6 +172,7 @@ address {
   margin-bottom: 48px;
 }
 .title-button {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -187,7 +188,6 @@ address {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .title-button:hover,
 .title-button:focus {
@@ -354,16 +354,53 @@ margin-bottom: 24px;
 }
 .portfolio-list {
   width: calc((100% - 48px) / 3);
+
+
 }
 .container-portfolio-title {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.portfolio-imagine-wrapper {
+    position: relative;
+      overflow: hidden;
+}
+.portfolio-overley {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background: #4d5ae5;
+  padding-top: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-list:hover .portfolio-overley {
+  transform: translateY(0%);
+}
+
+
 /*============================= Footer mood ====================*/
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: flex;
+}
+.container.footcontainer {
+
+}
+.footer-links.container {
+
 }
 .footer-content {
   line-height: 1.5;
@@ -385,4 +422,33 @@ margin-bottom: 24px;
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+}
+.title-footer-links {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-link-wrapper {
+  display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.footer-item-enter {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #4d5ae5;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-item-enter:hover,
+.footer-item-enter:focus {
+  background: #31d0aa;
 }
