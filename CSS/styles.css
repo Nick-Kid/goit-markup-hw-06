@@ -316,7 +316,7 @@ margin-bottom: 24px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-item-menu {
   display: flex;
@@ -326,6 +326,9 @@ margin-bottom: 24px;
 .team-item-enter:hover,
 .team-item-enter:focus {
   background: #404BBF;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 /*====================== Section 4 Our portfolio ===============*/
 .portfolio {
@@ -345,6 +348,7 @@ margin-bottom: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 40px 32px;
 }
 .portfolio-menu {
   display: flex;
@@ -429,7 +433,7 @@ margin-bottom: 24px;
 .footer-link-wrapper {
   display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 16px;
 }
 .footer-item-enter {
   display: flex;
@@ -440,9 +444,13 @@ margin-bottom: 24px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .footer-item-enter:hover,
 .footer-item-enter:focus {
   background: #31d0aa;
+}
+.name-container.container{
+align-items: baseline;
 }
