@@ -351,7 +351,6 @@ margin-bottom: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 40px 32px;
 }
 .portfolio-menu {
   display: flex;
@@ -459,4 +458,8 @@ transition: box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
 }
 .name-container.container{
 align-items: baseline;
+display: flex;
+}
+.footer-logo-container {
+  margin-right: 120px;
 }
