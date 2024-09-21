@@ -401,7 +401,6 @@ box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: flex;
 }
 .footer-content {
   line-height: 1.5;
@@ -454,7 +453,7 @@ box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
 .footer-item-enter:focus {
   background: #31d0aa;
 }
-.name-container.container{
+.footer-container.container{
 align-items: baseline;
 display: flex;
 }
