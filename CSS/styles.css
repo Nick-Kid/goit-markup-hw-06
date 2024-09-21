@@ -303,13 +303,7 @@ margin-bottom: 24px;
 .our-team-menu:last-child {
   margin-right: 0;
 }
-.team-item-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-  
-}
+
 .team-item-enter {
   display: flex;
   width: 40px;
