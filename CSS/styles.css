@@ -535,7 +535,7 @@ display: flex;
 }
 
 .modal {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -556,7 +556,6 @@ display: flex;
 } 
 
 .modal-close-btn {
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
