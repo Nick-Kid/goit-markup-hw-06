@@ -467,7 +467,7 @@ display: flex;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
-  margin-right: 23px;
+  margin-right: 24px;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -510,6 +510,7 @@ display: flex;
 }
 .footer-form {
   gap: 24px;
+  display: flex;
 }
 
 /* ========================= Modal ========================*/
