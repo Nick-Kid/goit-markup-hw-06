@@ -578,6 +578,10 @@ display: flex;
 .modal-close-btn:focus { 
   fill: #fff;
   background-color: #404bbf;
+  border: none;
+}
+.modal-close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-slogan {
